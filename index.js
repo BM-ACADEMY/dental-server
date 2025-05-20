@@ -79,7 +79,7 @@ const getUserEmailTemplate = (fullName, message) => `
 
 // Root route
 app.get("/", (req, res) => {
-    res.send("Welcome to the Digitok marketing is Live!!✅");
+    res.send("Welcome to the GNR Dentistry is Live!!✅");
   });
 // Email sending route
 app.post("/send-email", async (req, res) => {
